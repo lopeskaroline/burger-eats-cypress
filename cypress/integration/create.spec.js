@@ -3,12 +3,6 @@ import createFactory from '../factories/CreateFactory'
 
 describe('Create', ()=> {
 
-    // beforeEach(function() {
-    //     cy.fixture('deliver').then((del)=> {
-    //         this.deliver = del
-    //     })
-    // })
-
     it('User should be delivery', function() {
 
         var deliver = createFactory.deliver()
